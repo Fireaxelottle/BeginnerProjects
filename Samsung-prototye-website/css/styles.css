@@ -1,0 +1,283 @@
+/* navigation bar */
+nav {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+/* main */
+main {
+    background-color: black;
+    padding: 0 5rem;
+}
+
+.opening {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0;
+}
+
+.info {
+    padding: 2rem;
+    width: 30vw;
+    margin-bottom: 50%;
+    
+}
+
+.open-img {
+    width: 50vw;
+    margin-top: 0%;
+    margin-right: 7%;
+}
+
+@media screen and (max-width: 850px) {
+    .opening {
+        grid-template-columns: auto;
+        justify-items: center;
+        margin-bottom: 20%;
+    }
+
+    .open-img {
+        width: 60vw;
+        margin-bottom: 10%;
+    }
+
+    .info {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .opening {
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+
+    .open-img {
+        width: 60vw;
+        margin-bottom: 30%;
+    }
+
+    .info {
+        margin-bottom: 0;
+    }
+}
+
+/* basic info */
+
+.main-info-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5%;
+}
+
+.info-box {
+    background-color: white;
+    text-align: left;
+    padding: 10% 5px;
+    position: relative;
+    bottom: 200px;
+    margin: 0 3%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.water-h1 {
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.frame-h1 {
+    font-size: 2rem;
+    color: magenta;
+}
+
+.glass-h1 {
+    font-size: 2rem;
+    color: slateblue;
+}
+
+.arrow {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 850px) {
+    .main-info-box {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .info-box {
+        width: 50vw;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+}
+
+/* other items */
+
+.other {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.other-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+@media screen and (max-width: 850px) {
+    .other-box {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .other-box {
+        grid-template-columns: auto;
+    }
+}
+
+/* testamonial */
+
+.tes-box {
+    background-color: rgb(69, 110, 224);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+
+.tes-data {
+    text-align: center;
+    padding: 5%;
+}
+
+.tes-img {
+    width: 70vw;
+    margin: auto 0;
+}
+
+@media screen and (max-width: 500px) {
+    .tes-box {
+        grid-template-columns: auto;
+    }
+
+    .tes2-box {
+        grid-template-columns: auto;
+    }
+
+    .tes-img {
+        width: 100vw;
+    }
+}
+
+/* Connections */
+
+.connection {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.con-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5%;
+    grid-column: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .con-box {
+        grid-template-columns: auto;
+    }
+}
+
+/* testamonial-2 */
+.tes2-box {
+    background-color: rgb(63, 63, 63);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+
+.tes2-img {
+    width: 50vw;
+}
+
+@media screen and (max-width:500px) {
+    .tes2-box {
+        grid-template-columns: auto
+    }
+
+    .tes2-img {
+        width: 100vw;
+    }
+}
+
+/* GEAR */
+.gear {
+    text-align: center;
+    padding: 5% 20%;
+}
+
+.gear-img {
+    width: 50vw;
+}
+
+/* teatamonial 3 */
+
+.tes3-box {
+    background-color: rgb(255, 137, 149);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+
+
+
+.tes3-img {
+    width: 50vw;
+}
+
+@media screen and (max-width:500px) {
+    .tes3-box {
+        grid-template-columns: auto;
+    }
+
+    .tes3-img {
+        width: 100vw;
+    }
+}
+
+/* Final-words */
+
+.final-1 {
+    padding:5% 10%;
+    display: flex;
+justify-items: center;
+
+}
+
+.final-2 {
+    padding:5% 10% ;
+}
+
+@media screen and (max-width:500px) {
+    .final-1{
+        flex-direction: column;
+    }
+    .b-btn{
+        margin-top: 5%;
+    }
+}
+
+/* footer */
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}

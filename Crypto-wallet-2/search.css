@@ -1,0 +1,29 @@
+.search-b {background-color: rgb(17, 5,28); text-align: center; padding: 20% 5%; font-family: "Playfair Display"; font-weight: bold;}
+
+.search-bar {text-align: center; outline: auto; outline-color: rgb(0, 0, 0); margin-bottom: 3%; text-decoration:solid;}
+
+.nav-i {margin:0 5%;}
+
+.google-i {color: greenyellow; font-size:large; float: left; margin-top: 2%; margin-left: 10%;}
+
+.apple-i {color: greenyellow; font-size: large; float: left; margin-top: 2%; margin-left: 10%;}
+
+.btn-bg {background-color: rgb(46, 9, 55); margin:5% 0 ;}
+
+.search-h {color: rgb(252, 252, 252); margin-bottom: 10%;}
+
+.col-h2 {color: greenyellow;}
+
+.google-h {color: white;}
+
+.google-p {color: white;}
+
+.BUY-SELL {text-align: center;}
+
+.col-5 {text-align: center;}
+
+.home-cont-3 {margin: 10% 30% ; padding: 5%;}
+
+.s-home-cont-3 {margin: 50% 30% ; padding:0 5%;}
+
+.btn-sear {color: black;}

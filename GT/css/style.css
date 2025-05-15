@@ -1,0 +1,31 @@
+  
+/************tag selector ************/
+a:hover {color: #43ac06;} 
+p:hover {background-color: #d7f4f7;}
+
+ body {background-color: seashell;}
+
+h1 {color: #458d8d; }
+h1:hover {background-color: #d7f4f7; width: 80%;}
+h3:hover{background-color: #d7f4f7; width: 15%;}
+
+h3 {color:#458d8d;} 
+
+hr { border-color: gray;border-style: none; height:0px; width: 10%; border-top-style:dotted; border-width: 10px;}
+
+ img {height: 150px; background-color: aquamarine; border-radius: 100%;}
+
+ li {color: #66BFBF;}
+
+   p {} 
+
+   td {color: #66BFBF;}
+   th {color: #458d8d;}
+
+   /************class selector ************/
+   .paid {color:lightseagreen ;}
+   .unpaid {color: lightseagreen;}
+   .contact {color: rgb(30, 170, 180);}
+   
+   /************id selector ************/
+   #formheading {color: cadetblue;}

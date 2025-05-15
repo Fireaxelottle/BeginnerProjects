@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@media  screen and (max-width: 1000px) {
+   .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.card-1  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 5px solid palevioletred;
+    border-radius: 5%;
+   margin-bottom: 1%;
+   width: 60vw;
+  height: 60vh;
+   margin: 0 2%;
+   overflow: hidden;
+}
+
+.card-2  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border: 5px solid palevioletred;
+   border-radius: 5%;
+   margin-bottom: 1%;
+   width: 60vw;
+  height: 60vh;
+  margin: 0 2%;
+   overflow: hidden;
+}
+
+.main-heading {
+    margin: 5px;
+ color: rgba(235, 20, 20, 0.652);
+}
+
+.card {
+    display: flex;
+    padding: 5%;
+   
+}
+
+main { 
+    min-height: 100vh
+}
+
+
+img {
+    border: 3px solid rgb(106, 6, 40);
+    border-radius: 3%;
+    width: 53%;
+  height: 43%;
+  margin: 5px ;
+}
+
+
+
+
+.out-line {border: 5px solid palevioletred;
+    border-radius: 5%;
+margin-bottom: 1%;}
+
+.out-line:hover {border: 5px solid rgb(215, 69, 118);
+    border-radius: 5%;
+    margin-bottom: 1%;}
+
+header ul li {
+    list-style-type: none;
+   margin: 0 5px;
+}
+li a {
+    text-decoration: none;
+    color:white;
+}
+li a:hover {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer ;
+}

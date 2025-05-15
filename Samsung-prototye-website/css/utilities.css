@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+h1 {
+ font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+   }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.big-font {
+    font-size: 2rem;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.big-white {
+    font-size: 3rem;
+    color: white;
+}
+
+.big-black {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+    color: gray;
+    font-size: large;
+}
+
+.w-btn {
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    background: none;
+    border-radius: 50px;
+}
+
+.w-btn:hover {
+    background-color: white;
+}
+
+.mid-p {
+    margin: 20px 0;
+}
+
+.heading-h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.other-img {
+    width: 20vw;
+}
+
+
+
+.con-img {
+    width: 40vw;
+}
+
+.b-btn {
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    background: none;
+    border-radius: 50px;
+}
+
+.b-btn:hover {
+    background-color: rgb(0, 0, 0);
+}

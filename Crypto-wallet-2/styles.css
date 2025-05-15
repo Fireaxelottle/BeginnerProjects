@@ -1,0 +1,53 @@
+       
+       /* LOG-IN + SIGN-IN CSS*/
+
+
+.sign-cont {    
+text-align: center;
+margin-top: 5%;
+}
+
+.sign-cont h1 {font-family: "Playfair Display"; font-weight: bold;}
+
+.sign-cont p {font-family: "Montserrat"; font-weight: bold;}
+
+.form-cont {margin-top: 10%;}
+
+.email-box {margin:3% 0 ; border: 2px solid; padding: 1%; width: 50%; text-align: center;}
+
+.password-box {margin: 3% 0; border: 1px solid; padding: 1%; width: 50%; text-align: center;}
+
+.login-box {margin-top: 10%; font-weight: bold;}
+
+.last-text { margin-top: 15%; margin-right: 5%;}
+
+.name-box {margin: 3% 0; text-align: center;}
+
+
+           /* HOME-CSS */
+.HOME {color: white; font-family: "Playfair Display";text-align: center; }
+
+.home-body {background-color: rgb(17, 5, 28); padding: 10%; }  
+
+.home-cont-1 {background-color: rgb(40, 180, 227); padding: 8%; }
+
+.gray-p {color: darkgray;}
+
+.white-h {color:rgb(49, 48, 49); font-weight: bolder; margin: 2% 5% 0% 0%; float: left;}
+
+.white-p {color: white; margin-left: 80%; margin-bottom: 0;}
+
+.home-cont-2 {background-color:rgb(67, 32, 99) ; margin: 10% 5%; padding: 2%; padding-bottom: 1%;}
+
+.home-icon {color: white; display: inline-block; width: 2rem; font-size: xX-large;
+}
+
+.tab-h {display: inline-block; width: 6rem; color: white;}
+
+.green-i { display: inline-block; width: 1rem; color: rgb(151, 243, 13); margin-left: 5rem; font-size: x-large;}
+
+.green-p { display: inline-block; width: 2rem; color: rgb(154, 246, 17); text-align: right; margin-left: 1rem;}
+
+.home-cont-3 {margin: 0 30% ; padding: 5%;}
+
+.nav-i {margin:0 5%;}

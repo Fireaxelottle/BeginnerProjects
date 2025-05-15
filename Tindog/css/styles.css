@@ -1,0 +1,137 @@
+body {font-family: "Montserrat";
+text-align: center; }
+
+p {color: #8f8f8f;}
+
+h1,h2,h3,h3,h4 {font-family: "Montserrat";
+        font-weight: bold;}
+
+ h3 { 
+    font-size: 1.5rem;}
+
+.colored-title {background-color: #ff4c68; color: #fff;}
+
+.white-section {background-color: #fff; color: #000;}
+
+.testamonial-title {background-color: #ef8172; color: #fff;}
+
+/* heading */
+
+.big-heading {
+    font-size: 3rem;
+     line-height: 1.5;
+}
+
+/*  */
+
+    /* Navigation-Bar */
+    .navbar {padding-bottom: 3rem;}
+
+.navbar-brand {font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;}
+
+.container-fluid {padding: 3% 15%;}
+
+.nav-item { padding: 0 18px;}
+
+.nav-link {font-size: 1.2rem;}
+
+/*  */
+
+/* Button */
+
+.dwl-btton {margin: 5% 3% 5% 0;}
+
+/*  */
+
+/* Title */
+
+#title {
+    text-align: left; }
+
+.title-img { position:relative ; padding-top: 10%; padding-left: 5%;}
+
+.title-image {position: absolute;  width: 60%; transform: rotate(15deg); }
+
+/*  */
+
+/* features */
+#features {position: relative; }
+
+.fa-circle-check {color: #ef8172; 
+font-size: 3rem; 
+margin-bottom: 20px;
+}
+
+.fa-bullseye {color: #ef8172; 
+    font-size: 3rem; margin-bottom: 20px;}
+
+.fa-heart {color: #ef8172; 
+    font-size: 3rem;
+    margin-bottom: 20px;}
+ 
+   
+
+
+/*  */
+
+.circle:hover {color: #ff4c68;}
+
+
+.circle-box {  margin-bottom: 2.5rem; margin-top: 2.5rem;}
+
+.heart-box { margin-bottom: 2.5rem; margin-top: 2.5rem;}
+
+/*  */
+
+/* testamonials */
+
+#testimonials{  position: static;}
+
+.testimonial-image {width: 10%;
+    border-radius: 100%;}
+
+.carousel-item {padding: 5% 15%;}
+
+.testimonial-text {font-size: 3rem; line-height: 1.5;}
+
+/* press */
+
+.press-img {width: 15%;
+padding-bottom: 3%;
+margin: 20px 20px 50px;}
+
+/* pricing */
+
+.pice-heading {font-size: 3rem;line-height: 1.5;}
+
+#pricing { padding: 3rem;}
+
+.mastiff {line-height: 1;}
+
+.card-heading {font-size:30px ;}
+
+
+/* media queery */
+
+@media (max-width:990px) {
+.title-image { position: static; transform: rotate(0deg);}
+
+.title-img {position: static;}
+}
+
+/* footer */
+
+.cta-div { padding: 5% 10%;}
+
+.cta-b {margin: 5% 2%; }
+
+.fa-apple { margin:9px ; color:white ;}
+
+.fa-google-play { margin:9px ; color:black ;}
+
+#footer {  padding: 5% 10%
+;}
+
+.fa-foot {margin: 0 10px 30px 1%; }
